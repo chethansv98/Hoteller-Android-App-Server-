@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "962621905104",
+    "firebase_url": "https://jceorder.firebaseio.com",
+    "project_id": "jceorder",
+    "storage_bucket": "jceorder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962621905104:android:0ba18cb42ff6edbf",
+        "android_client_info": {
+          "package_name": "developers.bmsce.mank.com.foodorderserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962621905104-pkbo419u6upueeborafqie404l05auoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "developers.bmsce.mank.com.foodorderserver",
+            "certificate_hash": "487b1750d61a008a9df5f4f83a2aba3fca04a166"
+          }
+        },
+        {
+          "client_id": "962621905104-e6tcakjvqn4r51mhfv54jhtoogeu16u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNk7oB5yXkyNvO7VkLFpVsGaxGkAuhRLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962621905104-e6tcakjvqn4r51mhfv54jhtoogeu16u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
