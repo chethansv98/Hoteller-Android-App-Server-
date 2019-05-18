@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/product_name"
+                    android:textStyle="bold"
+
+                    android:textAllCaps="true"
+                    android:text="Product Name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical|start"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/product_quantity"
+                    android:textStyle="italic"
+
+                    android:textAllCaps="true"
+                    android:text="Product Quantity"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical|start"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/product_price"
+                    android:textStyle="italic"
+
+                    android:textAllCaps="true"
+                    android:text="Product Price"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical|start"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/product_discount"
+                    android:textStyle="italic"
+
+                    android:textAllCaps="true"
+                    android:text="Producr Discount"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical|start"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnedit"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_weight="1"
+                android:text="Delete"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDirection"
+                android:layout_weight="1"
+                android:text="Direction"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDetail"
+                android:layout_weight="1"
+                android:text="Detail"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
